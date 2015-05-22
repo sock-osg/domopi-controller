@@ -1,0 +1,24 @@
+{
+  "name": "domopi-controller",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sock-osg/domopi-controller",
+  "authors": [
+    "Samuel Quintana <sock.sqt@gmail.com>"
+  ],
+  "description": "N/A",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4"
+  }
+}

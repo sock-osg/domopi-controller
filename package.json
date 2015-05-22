@@ -2,7 +2,7 @@
     "name": "domopi-controller",
     "version": "0.0.1",
     "scripts": {
-        "start": "node ./bin/www"
+        "start": "bower install && stylus public/css/*.styl && node ./bin/www"
     },
     "dependencies": {
         "express": "^4.12.3",
