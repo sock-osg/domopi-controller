@@ -7,10 +7,12 @@ html(lang="en")
     body
         nav
             ul(class='nav nav-tabs')
-                li(role='presentation', class='active')
-                    a(href='#')= 'Inicio'
-                li(role='presentation')
-                    a(href='#')= 'Agregar Control'
+                li(role='presentation', class=tabDashboardActive)
+                    a(href='#')= 'Home'
+                li(role='presentation', class=tabAddControlActive)
+                    a(href='#')= 'Add Control'
+                li(role='presentation', class=tabMyControls)
+                    a(href='#')= 'My Controls'
         section#content
             block content
         footer#footer

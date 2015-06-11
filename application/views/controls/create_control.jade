@@ -2,3 +2,20 @@ extends ../common/layout
 
 block content
     h1= title
+
+    form.form-horizontal(role="form")
+        div.form-group
+            label.control-label.col-sm-2(for="txtControlName") Control name :
+            div.col-sm-10
+                input#txtControlName.form-control(type="text", required)
+        div.form-group
+            label.control-label.col-sm-2(for="selGpioNumber") Raspberry GPIO :
+            div.col-sm-10
+                select#selGpioNumber.form-control
+                    option(value="1") GPIO PIN 1
+                    option(value="2") GPIO PIN 2
+                    option(value="3") GPIO PIN 3
+                    option(value="4") GPIO PIN 4
+        div.form-group
+            div.col-sm-offset-2.col-sm-10
+                button.btn.btn-default(type="submit") Add
